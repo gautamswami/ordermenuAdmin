@@ -1,0 +1,29 @@
+.sidebar {
+  background: #222222;
+  color: white;
+  padding: 30px 0;
+  height: 70vh;
+}
+.sidebar ul {
+  list-style: none;
+}
+.sidebar ul li {
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 30px 0;
+  cursor: pointer;
+  padding: 10px 20px;
+  transition: 0.1s ease-in-out;
+}
+.sidebar ul li:hover {
+  background: #fafff7;
+  transition: 0.1s ease-in-out;
+  color: #222222;
+}
+.selected {
+  background: #fafff7;
+  transition: 0.1s ease-in-out;
+  color: #222222;
+}

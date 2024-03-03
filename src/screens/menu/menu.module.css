@@ -1,0 +1,30 @@
+.welcomLine {
+  font-size: 24px;
+  font-weight: 500;
+  width: 100%;
+  text-align: center;
+}
+.welcomeSub {
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 5px;
+  text-align: center;
+
+}
+.categoryBox ul {
+  list-style: none;
+}
+.categoryBox ul li {
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  transition: 0.1s ease-in-out;
+}
+.recomBox {
+  display: flex;
+}
+.menuContainer {
+  width: 100%;
+}
